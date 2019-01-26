@@ -31,7 +31,7 @@
 
 ### JavaScript
 - [JavaScript语言精粹](https://github.com/wyhcool/notes/tree/master/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9)
-- [编写可维护的JavaScript](https://github.com/wyhcool/notes/blob/master/JavaScript/%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84JavaScript/%E7%AC%AC01%E7%AB%A0.%E7%BC%96%E7%A8%8B%E9%A3%8E%E6%A0%BC.md)
+- [编写可维护的JavaScript](https://github.com/wyhcool/notes/tree/master/JavaScript/%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84JavaScript)
 - [ECMA-262-3 in detail](https://github.com/wyhcool/notes/tree/master/JavaScript/ECMA-262-3%20in%20detail)
 
 ### 软件工程
