@@ -1,13 +1,13 @@
 前端工程师进阶之路
 
-## 在读
+## Doing
 - CSS权威指南（第三版）
 - JavaScript设计模式与开发实践
 - JavaScript设计模式
 - Head First设计模式
 
 
-## todo
+## TODO
 
 ### web
 - 精通CSS：高级web标准解决方案（第2版）
@@ -25,3 +25,14 @@
 
 ### 软件工程
 - 程序员修炼之道
+
+
+## Done
+
+### JavaScript
+- [JavaScript语言精粹](https://github.com/wyhcool/notes/tree/master/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9)
+- [编写可维护的JavaScript](https://github.com/wyhcool/notes/blob/master/JavaScript/%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84JavaScript/%E7%AC%AC01%E7%AB%A0.%E7%BC%96%E7%A8%8B%E9%A3%8E%E6%A0%BC.md)
+- [ECMA-262-3 in detail](https://github.com/wyhcool/notes/tree/master/JavaScript/ECMA-262-3%20in%20detail)
+
+### 软件工程
+- [代码大全(第2版)](https://github.com/wyhcool/notes/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A82)
