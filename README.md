@@ -1,7 +1,8 @@
 前端工程师进阶之路
 
-[刘未鹏|怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
-[peng_gong|程序员必读书单 1.0](http://zh.lucida.me/blog/developer-reading-list/#programming_pearls)
+### 参考
+- [刘未鹏|怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
+- [peng_gong|程序员必读书单 1.0](http://zh.lucida.me/blog/developer-reading-list/#programming_pearls)
 
 ### JavaScript
 - [JavaScript语言精粹](https://github.com/wyhcool/notes/tree/master/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9)
