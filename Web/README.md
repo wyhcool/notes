@@ -15,3 +15,10 @@
   (3)优先级就近原则，同权重情况下样式定义最近者为准；载入样式以最后载入的定位为准(link的样式的权重高于@import的权重)
 ```
 
+- CSS的盒子模型?
+
+```
+(1)有两种，IE 怪异盒子模型、标准 W3C 盒子模型；IE的 content 部分包含了 border 和 pading，在 CSS3 中属性 box-sizing 指定值 border-box 时设置为此盒模型;
+
+(2)盒模型：内容(content)、填充(padding)、边界(margin)、 边框(border)
+```
