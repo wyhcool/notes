@@ -10,7 +10,7 @@
 - [ECMA-262-3 in detail](https://github.com/wyhcool/notes/tree/master/JavaScript/ECMA-262-3%20in%20detail)
 
 ### Web
-- [CSS权威指南(第3版)](https://github.com/wyhcool/notes/tree/master/Web/CSS%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%973)
+- [CSS权威指南(第3版)](https://github.com/wyhcool/notes/tree/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9)
 
 
 ### 软件工程
