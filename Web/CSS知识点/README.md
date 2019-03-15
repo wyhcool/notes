@@ -17,14 +17,15 @@
 
 新增[第15章.grid布局](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC15%E7%AB%A0.grid%E5%B8%83%E5%B1%80.md)
 
-新增[第16章.过渡](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC16%E7%AB%A0.%E8%BF%87%E6%B8%A1.md)
+新增[第16章.多列布局](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC16%E7%AB%A0.%E5%A4%9A%E5%88%97%E5%B8%83%E5%B1%80.md)
 
-新增[第17章.动画](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC17%E7%AB%A0.%E5%8A%A8%E7%94%BB.md)
+新增[第17章.过渡](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC17%E7%AB%A0.%E8%BF%87%E6%B8%A1.md)
 
-新增[第18章.变换](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC18%E7%AB%A0.%E5%8F%98%E6%8D%A2.md)
+新增[第18章.动画](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC18%E7%AB%A0.%E5%8A%A8%E7%94%BB.md)
 
-新增[第19章.媒体特性与响应式]()
+新增[第19章.变换](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC19%E7%AB%A0.%E5%8F%98%E6%8D%A2.md)
 
+新增[第20章.媒体特性与响应式](https://github.com/wyhcool/notes/blob/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%AC%AC20%E7%AB%A0.%E5%AA%92%E4%BD%93%E7%89%B9%E6%80%A7%E4%B8%8E%E5%93%8D%E5%BA%94%E5%BC%8F.md)
 
 ### 参考
 ✅[CSS2.1 | W3C](https://www.w3.org/TR/CSS2/)
