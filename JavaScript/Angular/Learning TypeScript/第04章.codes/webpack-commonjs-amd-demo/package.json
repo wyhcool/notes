@@ -1,0 +1,19 @@
+{
+  "name": "webpack-commonjs-amd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  }
+}
