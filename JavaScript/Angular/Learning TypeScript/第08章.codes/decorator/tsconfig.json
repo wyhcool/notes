@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES5",                      //目标代码类型
+        "module": "commonjs",                 //指定生成哪个模块系统代码
+        "sourceMap": true,                    //用于debug
+        "outDir": "dist",                     //重定向输出目录
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": false                //在表达式和声明上有隐含的'any'类型时报错。
+    },
+    "includes": [
+        "src/**/*.ts"
+    ]
+}
