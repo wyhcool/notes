@@ -1,0 +1,39 @@
+body {
+    background: lightblue;
+    color: #736333;
+    font: 16px/2 Microsoft Yahei serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    float: left;
+    clear: both;
+
+    li {
+        float: left;
+        border: 1px solid #e5e5e5;
+        background: peru;
+        margin-right: -1px;
+
+        a {
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+        }
+    }
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #e4e4e4;
+}

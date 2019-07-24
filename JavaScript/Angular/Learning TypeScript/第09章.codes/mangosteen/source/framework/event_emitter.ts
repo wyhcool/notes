@@ -8,12 +8,12 @@ class EventEmittor implements IEventEmittor {
         this._mediator = mediator;
     }
 
-    triggerEvent(event: IAppEvent) {
+    triggerEvent(event: IAppEvent): void {
         this._mediator.publish(event);
     };
 
     //调用 subscribeToEvents, _events 属性被用来存储组件订阅的事件
-    subscribeToEvents(events: Array<IAppEvent>) {
+    subscribeToEvents(events: Array<IAppEvent>): void {
         this._events = events;
         for (var i = 0; i < this._events.length; i++) {
             this._mediator.subscribe(this._events[i]);

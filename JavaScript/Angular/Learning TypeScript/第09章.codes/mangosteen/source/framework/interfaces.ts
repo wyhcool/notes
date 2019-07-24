@@ -38,10 +38,11 @@ interface IRoute {
     serialize(): string;
 }
 
+//所有组件都需要使用中介器与其他组件进行通信
 interface IEventEmittor {
-    triggerEvent(event: IAppEvent);
-    subscribeToEvents(events: Array<IAppEvent>);
-    unsubscribeToEvents(events: Array<IAppEvent>);
+    triggerEvent(event: IAppEvent): void;
+    subscribeToEvents(events: Array<IAppEvent>): void;
+    unsubscribeToEvents(events: Array<IAppEvent>): void;
 }
 
 interface IRouter extends IEventEmittor {

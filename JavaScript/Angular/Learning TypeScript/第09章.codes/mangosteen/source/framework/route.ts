@@ -11,6 +11,7 @@ class Route implements IRoute {
         this.args = args;
     }
 
+    //将一个 Route 类实例转化成一个 URL
     public serialize(): string {
         var s, sargs;
         sargs = this.args.map(a=>a.toString()).join("/");

@@ -1,14 +1,19 @@
 /// <reference path="./interfaces.ts"/>
 
 import { EventEmittor } from "./event_emitter";
+import * as Q from "q";
+import * as Handlebars from "handlebars";
+import * as $ from "jquery";
 
+//ref: https://stackoverflow.com/questions/55962145/how-to-use-local-npm-package-ts-typings-for-ambient-module-handlebars
+//Now we can /// node.d.ts and then load the modules using import url = require("url"); or import * as URL from "url".
 function ViewSettings(templateUrl: string, container: string) {
     return function(target: any) {
         //保存原构造函数的引用
-        var original = target;
+        var original: any = target;
 
         //用于生成类实例的工具函数
-        function construct(constructor, args) {
+        function construct(constructor: any, args: any[]): any {
             var c: any = function() {
                 return constructor.apply(this, args);
             }
@@ -21,7 +26,7 @@ function ViewSettings(templateUrl: string, container: string) {
         }
 
         //新构造函数的行为
-        var f: any = function(...args) {
+        var f: any = function(...args: any[]) {
             return construct(original, args);
         }
 
@@ -66,7 +71,7 @@ class View extends EventEmittor implements IView {
 
     //异步模板加载
     private loadTemplateAsync() {
-        return Q.promised((resolve: (r) => {}, reject: (e) => {}) => {
+        return Q.Promise((resolve: (r: any) => any, reject: (e: any) => any) => {
             $.ajax({
                 method: "GET",
                 url: this._templateUrl,
@@ -83,7 +88,7 @@ class View extends EventEmittor implements IView {
 
     //异步编译模板
     private compileTemplateAsync(source: string) {
-        return Q.promised((resolve: (r) => {}, reject: (e) => {}) => {
+        return Q.Promise((resolve: (r: any) => any, reject: (e: any) => any) => {
             try {
                 var template = Handlebars.compile(source);
                 resolve(template);
@@ -95,7 +100,7 @@ class View extends EventEmittor implements IView {
     
     //缓存
     private getTemplateAsync() {
-        return Q.promised((resolve: (r) => {}, reject: (e) => {}) => {
+        return Q.Promise((resolve: (r: any) => any, reject: (e: any) => any) => {
             if (this._templateDelegate === undefined 
                 || this._templateDelegate === null) {
                 
@@ -117,12 +122,12 @@ class View extends EventEmittor implements IView {
     }
 
     //异步渲染 view
-    protected renderAsync(model) {
-        return Q.promised((resolve: (r) => {}, reject: (e) => {}) => {
+    protected renderAsync(model: any) {
+        return Q.Promise((resolve: (r: any) => any, reject: (e: any) => any) => {
             this.getTemplateAsync()
                 .then((templateDelegate) => {
                     //生成 HTML 并添加到 DOM 中
-                    var html = this._templateDelegate(model);
+                    var html = templateDelegate(model);
                     $(this._container).html(html);
 
                     //将 model 作为参数传递

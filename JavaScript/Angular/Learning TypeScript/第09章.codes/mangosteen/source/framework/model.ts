@@ -1,14 +1,29 @@
 /// <reference path="./interfaces.ts"/>
 
 import { EventEmittor } from "./event_emitter";
+import * as Q from "q"; 
+import * as $ from "jquery";
+
+//ref: https://github.com/microsoft/TypeScript/issues/10178
+
+//报错: Cannot find module 'q'
+//解决: 
+/*
+# Implementation package (required to run)
+$ npm install --save lodash
+
+# Typescript Description
+$ npm install --save @types/lodash 
+*/
+//ref: https://stackoverflow.com/questions/34660265/importing-lodash-into-angular2-typescript-application
 
 function ModelSettings(serviceUrl: string) {
     return function(target: any) {
         //保存原构造函数的引用
-        var original = target;
+        var original: any = target;
 
         //用于生成类实例的工具函数
-        function construct(constructor, args) {
+        function construct(constructor: any, args: any): any {
             var c: any = function() {
                 return constructor.apply(this, args);
             }
@@ -20,7 +35,7 @@ function ModelSettings(serviceUrl: string) {
         }
 
         //新构造函数的行为
-        var f: any = function(...args) {
+        var f: any = function(...args: any[]) {
             return construct(original, args);
         }
 
@@ -51,8 +66,9 @@ class Model extends EventEmittor implements IModel {
         throw new Error("Model.prototype.dispose() is abstract you must implement it!");
     }
 
-    protected requestAsync(method: string, dataType: string, data) {
-        return Q.promised((resolve: (r) => {}, reject: (e) => {}) => {
+    protected requestAsync(method: string, dataType: string, data: any) {
+        //NOTICE: npm install --save @types/q
+        return Q.Promise((resolve: (r: any) => any, reject: (e: any) => any) => {
             $.ajax({
                 method: method,
                 url: this._serviceUrl,

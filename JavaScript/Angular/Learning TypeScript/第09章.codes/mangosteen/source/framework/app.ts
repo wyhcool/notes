@@ -12,6 +12,7 @@ class App {
     private _controllers: IControllerDetails[];
     private _onErrorHandler: (o: Object) => void;
 
+    //初始化调度器, 中介器, 路由, 控制器和全局错误处理函数
     constructor(appSettings: IAppSettings) {
         this._controllers = appSettings.controllers;
         //当新建一个程序时, 它将自动创建一个新的中介器, 并将其传入路由和调度器

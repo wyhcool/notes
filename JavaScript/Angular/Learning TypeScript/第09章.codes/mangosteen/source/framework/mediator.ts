@@ -1,10 +1,13 @@
 /// <reference path="./interfaces.ts"/>
 
+import * as $ from "jquery";
+
 class Mediator implements IMediator {
-    private _$: JQuery;
+    private _$: any;
     private _isDebug: boolean;
 
     constructor(isDebug: boolean = false) {
+        //在内存中维护的 jQuery 对象
         this._$ = $({});
         this._isDebug = isDebug;
     }

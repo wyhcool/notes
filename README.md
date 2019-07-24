@@ -5,6 +5,7 @@
 - [peng_gong|程序员必读书单 1.0](http://zh.lucida.me/blog/developer-reading-list/#programming_pearls)
 
 ### JavaScript
+- [Learning TypeScript中文版](https://github.com/wyhcool/notes/tree/master/JavaScript/Angular/Learning%20TypeScript)
 - [JavaScript语言精粹](https://github.com/wyhcool/notes/tree/master/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9)
 - [编写可维护的JavaScript](https://github.com/wyhcool/notes/tree/master/JavaScript/%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84JavaScript)
 - [ECMA-262-3 in detail](https://github.com/wyhcool/notes/tree/master/JavaScript/ECMA-262-3%20in%20detail)

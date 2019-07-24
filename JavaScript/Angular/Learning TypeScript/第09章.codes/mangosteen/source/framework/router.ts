@@ -4,6 +4,8 @@ import { EventEmittor } from "./event_emitter";
 import { Route } from "./route";
 import { AppEvent } from "./app_event";
 
+import * as $ from "jquery";
+
 class Router extends EventEmittor implements IRouter {
 
     private _defaultController: string;

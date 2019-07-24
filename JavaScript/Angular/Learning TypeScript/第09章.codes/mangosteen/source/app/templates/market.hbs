@@ -1,0 +1,30 @@
+<div class="panel panel-default fadeInUp animated">
+    <div class="panel-body">
+        <h2>{{ market }}</h2>
+        <table class="table table-responsible table-condensed">
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Operate</th>
+                    <th>value</th>
+                    <th>More</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each items.programmers}} 
+                <tr>
+                    <td>{{firstName}}</td>
+                    <td>{{lastName}}</td>
+                    <td>{{email}}</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm getQuote">
+                            <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+                            Quote
+                        </button>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
