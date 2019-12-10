@@ -1,0 +1,3 @@
+javac RoadApplet.java
+jar cvm RoadApplet.jar  *.class
+rm *.class
