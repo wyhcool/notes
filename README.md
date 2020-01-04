@@ -4,6 +4,10 @@
 - [刘未鹏|怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 - [peng_gong|程序员必读书单 1.0](http://zh.lucida.me/blog/developer-reading-list/#programming_pearls)
 
+### 进行中
+- [Java 核心技术 10th](https://github.com/wyhcool/notes/tree/master/Java/Java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF10)
+
+
 ### JavaScript
 - [Learning TypeScript中文版](https://github.com/wyhcool/notes/tree/master/JavaScript/Angular/Learning%20TypeScript)
 - [JavaScript语言精粹](https://github.com/wyhcool/notes/tree/master/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9)
