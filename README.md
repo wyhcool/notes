@@ -5,7 +5,8 @@
 - [peng_gong|程序员必读书单 1.0](http://zh.lucida.me/blog/developer-reading-list/#programming_pearls)
 
 ### 进行中
-- [Java 核心技术 10th](https://github.com/wyhcool/notes/tree/master/Java/Java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF10)
+- [算法 4th](https://github.com/wyhcool/notes/tree/master/Algorithms/%E7%AE%97%E6%B3%954)
+- [Java 核心技术 10th 下卷](https://github.com/wyhcool/notes/tree/master/Java/Java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF10)
 
 
 ### JavaScript
