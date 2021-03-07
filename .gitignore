@@ -5,3 +5,6 @@
 # dev
 node_modules
 package-lock.json
+
+# 备份
+bak
