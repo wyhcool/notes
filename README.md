@@ -1,4 +1,6 @@
-前端工程师进阶之路
+学习、技术、工作、生活
+
+
 
 ### 参考
 - [刘未鹏|怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
