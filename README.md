@@ -24,3 +24,6 @@
 
 ### 软件工程
 - [代码大全(第2版)](https://github.com/wyhcool/notes/tree/master/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A82)
+
+### 阅读
+- [学习之道](https://github.com/wyhcool/notes/tree/master/%E9%98%85%E8%AF%BB/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E9%81%93)
