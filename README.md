@@ -18,6 +18,8 @@
 - [编写可维护的JavaScript](https://github.com/wyhcool/notes/tree/master/JavaScript/%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84JavaScript)
 - [ECMA-262-3 in detail](https://github.com/wyhcool/notes/tree/master/JavaScript/ECMA-262-3%20in%20detail)
 
+- [Angular权威教程](https://github.com/wyhcool/notes/tree/master/JavaScript/Angular/Angular%E6%9D%83%E5%A8%81%E6%95%99%E7%A8%8B)
+
 ### Web
 - [CSS权威指南(第3版)](https://github.com/wyhcool/notes/tree/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9)
 
