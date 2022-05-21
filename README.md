@@ -16,10 +16,18 @@
 - [ECMA-262-3 in detail](https://github.com/wyhcool/notes/tree/master/JavaScript/ECMA-262-3%20in%20detail)
 - [编写可维护的JavaScript](https://github.com/wyhcool/notes/tree/master/JavaScript/%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84JavaScript)
 - [JavaScript语言精粹](https://github.com/wyhcool/notes/tree/master/JavaScript/JavaScript%E8%AF%AD%E8%A8%80%E7%B2%BE%E7%B2%B9)
+
+#### Node
 - [Node.js实战](https://github.com/wyhcool/notes/tree/master/JavaScript/Node.js%E5%AE%9E%E6%88%98)
+
+#### TypeScript
 - [Learning TypeScript中文版](https://github.com/wyhcool/notes/tree/master/JavaScript/Angular/Learning%20TypeScript)
+
+#### Angular
 - [Angular权威教程](https://github.com/wyhcool/notes/tree/master/JavaScript/Angular/Angular%E6%9D%83%E5%A8%81%E6%95%99%E7%A8%8B)
 
+#### React
+- [深入浅出React和Redux](https://github.com/wyhcool/notes/tree/master/JavaScript/React/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAReact%E5%92%8CRedux)
 ### CSS
 - [CSS2.1规范](https://github.com/wyhcool/notes/tree/master/Web/CSS2.1SPEC)[部分]
 - [CSS权威指南(第3版)](https://github.com/wyhcool/notes/tree/master/Web/CSS%E7%9F%A5%E8%AF%86%E7%82%B9)
