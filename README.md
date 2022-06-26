@@ -6,8 +6,15 @@
 - [刘未鹏|怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 - [peng_gong|程序员必读书单 1.0](http://zh.lucida.me/blog/developer-reading-list/#programming_pearls)
 
+### 算法
+- [算法（第4版）](https://github.com/wyhcool/notes/tree/master/Algorithms/%E7%AE%97%E6%B3%954)[未完待续]
+- [算法图解](https://github.com/wyhcool/notes/tree/master/Algorithms/%E7%AE%97%E6%B3%95%E5%9B%BE%E8%A7%A3)
+
 ### Java
 - [Java核心技术10](https://github.com/wyhcool/notes/tree/master/Java/Java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF10)[未完待续]
+
+### Python
+- [Python编程.从入门到实践（第2版）](https://github.com/wyhcool/notes/tree/master/Python/Python%E7%BC%96%E7%A8%8B%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E8%B7%B5)[第一部分基础知识完成]
 
 ### 前端工程化
 - [Webpack实战](https://github.com/wyhcool/notes/tree/master/Web/Webpack/Webpack%E5%AE%9E%E6%88%98)
